@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 export default function Menu() {
     return (
         <nav className='menu'>
-            <Link to="/login">Login</Link>
-            <Link to="/cadastro">Cadastro</Link>
+            <button Link to="/login" class='userButton'>Login</button>
+            <button Link to="/cadastro" class='userButton'>Cadastro</button>
         </nav>
     )
 }

@@ -3,6 +3,16 @@ nav.menu{
     text-align: right;
 }
 
+.menu .userButton{
+    padding: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 10%;
+    background-color: rgb(2, 2, 92);
+    color:rgb(255, 255, 255);
+    margin: 5px;
+}
+
 .menu a{
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -12,6 +22,7 @@ nav.menu{
     margin-top: 20px;
 }
 
-.menu a:hover {
+.menu .userButton:hover {
     color: #538cc6;
+    background-color: blue;
 }
