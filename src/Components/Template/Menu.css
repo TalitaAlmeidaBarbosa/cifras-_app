@@ -1,28 +1,71 @@
 nav.menu{
     background-color: var(--bg-menu);
     text-align: right;
+    position: relative;
+    height: 85px;
 }
 
 .menu .userButton{
     padding: 15px;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
     border-radius: 10%;
-    background-color: rgb(2, 2, 92);
+    background-color: darkslateblue;
     color:rgb(255, 255, 255);
-    margin: 5px;
+    margin-left: 10px;
+    margin-top: 18px;
 }
 
 .menu a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     padding: 10px;
-    font-size: 30px;
+    font-size: 23px;
     padding:  5px;
-    margin-top: 20px;
+    margin-top: 50%;
+}
+
+.menu .link {
+    font-size: 15px;
+    font-family: cursive;
+    margin-top: 25px;
+}
+
+.menu .comp {
+    display: flex;
+    justify-content: right;
+    justify-items: right;
+    margin-right: 20pt;
 }
 
 .menu .userButton:hover {
-    color: #538cc6;
-    background-color: blue;
+    color: white;
+    background-color: #538cc6;
+}
+
+.menu a:hover {
+    color: #73a4d4;
+}
+
+[data-tooltip] {
+    position: relative;
+}
+  
+[data-tooltip]:after {
+    display: none;
+    position: absolute;
+    margin-top: 12px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+    color: #000;
+    content: attr(data-tooltip);
+    white-space: nowrap;
+    padding: 5px;
+    background-color: lavender;
+    border-radius: 5px;
+}
+  
+[data-tooltip]:hover:after {
+    display: block;
 }

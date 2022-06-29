@@ -1,0 +1,131 @@
+div.content{
+    width: 83%;
+    height: 80%;
+    margin: auto;
+    margin-left: 8%;
+    margin-top: 12%;
+    position: absolute;
+}
+
+main > div {
+    background-color: lavender;
+    box-shadow: 0px 0px 15px rgb(153, 153, 153);
+    padding: 10px;
+    margin-left: 110px;
+    display: flex;
+}
+
+div > input {
+    width: 100%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+ .btn {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: relative;
+    border-radius: 5px;
+}
+
+.caixa {
+    background-color: lavender;
+    padding: 15px;
+    display: flex;
+}
+
+.conteudo {
+    margin-top: -200%;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+/* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+
+
+.tituloListagem {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.listaCantor {
+    margin-left: 20px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cabecTabela {
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    text-align: left;
+}
+th, td {
+    padding: 10px;
+}
+.tabTituloCantor {
+    width: 400px;
+}
+.tabTituloqtd {
+    width: 200px;
+}
+
+input[type=text] {
+    display: inline-block;
+    width: 20%;
+    padding: 12px;
+    margin: 8px 0;
+}
+input[type=number] {
+    padding: 12px;
+    width: 50px;
+}
+    .inclui-container {
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+    .btnSalvar {
+    background-color: lightblue;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px 5px 5px 30px;
+}
+    .btnCancelar{
+    background-color: gainsboro;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+}
+    label {
+    padding: 10px;
+}
+    .tituloCadastro {
+    margin-left: 30px;
+}
+/*.btnSalvar {
+    background-color: lightblue;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px 5px 5px 30px;
+}
+.btnCancelar{
+    background-color: gainsboro;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+}*/
+    label {
+    padding: 10px;
+}
+

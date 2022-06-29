@@ -1,6 +1,6 @@
 import './Logo.css'
 import React from 'react'
-import Logo from '../../../Assets/Logo/InterCifrasPPLogo.png'
+import Logo from '../../Assets/Logo/InterCifrasPPLogo_teste.png'
 
 export default function(props){
     return (
@@ -9,6 +9,5 @@ export default function(props){
                 <img src={ Logo } alt = "Logo" />
             </a>
         </aside>
-
     )
 }

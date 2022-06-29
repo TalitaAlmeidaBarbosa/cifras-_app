@@ -1,0 +1,11 @@
+aside.logo{
+    background-color: var(--bg-menu);
+    height: 85px;
+}
+
+aside.logo img{
+    width: 85%;
+    margin-top: 6px;
+    margin-left: 0%;
+    padding-left: 0%;
+}

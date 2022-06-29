@@ -1,0 +1,14 @@
+.template{
+    background-color: var(--bg-template);
+}
+
+.template img{
+    width: 75.000em;
+    height: 69%;
+    margin-left: 13%;
+    margin-top: 11px;
+    display: flex;
+    position: absolute;
+}
+/* width: 98.938em;*/
+/* margin-left: 100%;*/

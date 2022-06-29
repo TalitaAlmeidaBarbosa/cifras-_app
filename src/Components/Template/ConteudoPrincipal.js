@@ -1,11 +1,11 @@
-import './Main.css';
+import './ConteudoPrincipal.css';
 import React from 'react';
 import Header from './Header';
 //import Lupa from '../../Assets/Template/lupa.png'
 
 export default function Main(props) {
     return (
-        <div className="content">
+        <div>
              {/*<Header {...props} /> */}
             
                 {/*<div>
@@ -14,8 +14,8 @@ export default function Main(props) {
                     <img src={ Lupa } class="btn"></img>
                 </div>*/}
 
-            <h1>{props.title}</h1>
-            {props.children}
+           {/*} <h1>{props.title}</h1>
+            {props.children}*/}
             
         </div>
     )
